@@ -1,0 +1,52 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #335a68;
+}
+.header
+{
+  height: 2em;
+  width: 10%;
+}
+section {
+    text-align: center;
+}
+.cell {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80px;
+    height: 80px;
+    border:3px solid #335a68;
+    cursor: pointer;
+    line-height: 81px;
+    font-size: 40px;
+}
+.game--title {
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d7a62f;
+    margin: 10px auto;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: 10px auto;
+    background-color: #142429;
+    color: #10978e;
+
+}
+.game--status {
+    font-size: 30px;
+    color: #d7a62f;
+    margin: 20px auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.game--restart {
+    background-color:#f0cc63;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #21262f;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid#456468;
+    border-radius: 5px 30px;
+}
